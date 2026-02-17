@@ -49,7 +49,7 @@ Download the assets from the [Releases](https://github.com/izenynn/layout-nokwts
    ```
 5. Run EPKL
 
-### macOS
+### MacOS
 
 1. Download `nokwtspp-vX.X.X-mac.keylayout`
 2. Copy it to `~/Library/Keyboard Layouts/`
