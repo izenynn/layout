@@ -4,11 +4,12 @@ Source files for building the native Windows keyboard layout (.dll).
 
 ## Files
 
-- `nokwtsplusplus.klc` — MSKLC-format layout definition (also compatible with KbdEdit)
+- `nokwtsplusplus.kbe` — KbdEdit project file (primary source)
+- `nokwtsplusplus.klc` — MSKLC-format export
 
 ## Building
 
-Use [KbdEdit](http://www.kbdedit.com/) to open the `.klc` file and build the installer.
+Open `nokwtsplusplus.kbe` in [KbdEdit](http://www.kbdedit.com/) and build the installer.
 
 The built installer should be uploaded to the [Releases](https://github.com/izenynn/layout-nokwtsplusplus/releases) page.
 

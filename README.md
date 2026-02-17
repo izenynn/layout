@@ -31,28 +31,35 @@ Ligatures: `::` (double colon), `->` (arrow), `../` (parent dir)
 
 ## Installation
 
+Download the assets from the [Releases](https://github.com/izenynn/layout-nokwtsplusplus/releases) page.
+
 ### Windows (Native)
 
-Download the installer from the [Releases](https://github.com/izenynn/layout-nokwtspp/releases) page.
+1. Download `nokwtspp-vX.X.X-windows.exe`
+2. Run the installer
 
 ### Windows (EPKL)
 
 1. Install [EPKL](https://github.com/DreymaR/BigBagKbdTrixPKL)
-2. Copy the `epkl/NokwtsPP/` folder into EPKL's `Layouts/` directory
-3. Add this line to your `EPKL_Layouts_Override.ini` under `[pkl]`:
+2. Download `nokwtspp-vX.X.X-epkl.zip`
+3. Extract the `NokwtsPP/` folder into EPKL's `Layouts/` directory
+4. Add this line to your `EPKL_Layouts_Override.ini` under `[pkl]`:
    ```ini
    layout = NokwtsPP\NktPP-eD_ANS:NokwtsPlusPlus
    ```
-4. Run EPKL
+5. Run EPKL
 
 ### macOS
 
-TODO
+1. Download `nokwtspp-vX.X.X-mac.keylayout`
+2. Copy it to `~/Library/Keyboard Layouts/`
+3. Log out and back in (or reboot)
+4. Add the layout in System Settings > Keyboard > Input Sources
 
 ## Structure
 
 ```
 epkl/       EPKL layout files (for BigBagKbdTrixPKL)
-kbdedit/    KbdEdit / MSKLC source files
+kbdedit/    KbdEdit source and MSKLC export files
 mac/        macOS layout files
 ```
