@@ -26,7 +26,7 @@ Ligatures: `::` (double colon), `->` (arrow), `../` (parent dir)
 
 ### Special Keys
 
-- **CapsLock <-> Backspace**: Full swap (EPKL only)
+- **CapsLock <-> Backspace**: Full swap
 - **A key (SGCap)**: AltGr gives `?`, AltGr+Shift gives `¿`, AltGr gives `ñ`, AltGr+Shift gives`Ñ`
 
 ## Installation
@@ -42,7 +42,7 @@ Download the assets from the [Releases](https://github.com/izenynn/layout-nokwts
 
 1. Install [EPKL](https://github.com/DreymaR/BigBagKbdTrixPKL)
 2. Download `nokwtspp-vX.X.X-epkl.zip`
-3. Extract the `NokwtsPP/` folder into EPKL's `Layouts/` directory
+3. Extract the zip into your EPKL directory (it mirrors EPKL's folders: `Layouts/NokwtsPP/` plus the `&AGxx` symbol PowerStrings in `Files/_eD_PwrStrings.ini`)
 4. Add this line to your `EPKL_Layouts_Override.ini` under `[pkl]`:
    ```ini
    layout = NokwtsPP\NktPP-eD_ANS:NokwtsPlusPlus
